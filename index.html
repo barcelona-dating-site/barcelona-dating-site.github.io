@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ─── SEO PRIMARY META ─── -->
+  <title>Barcelona Dating Site — Conoce Solteros en Barcelona | Citas Reales</title>
+  <meta name="description" content="El mejor sitio de citas en Barcelona. Conoce solteros y solteras reales en tu ciudad. Registro 100% gratuito. Miles de perfiles verificados en Barcelona y toda Cataluña." />
+  <meta name="keywords" content="barcelona dating site, citas en barcelona, conocer solteros barcelona, aplicación citas barcelona, ligar barcelona, pareja barcelona" />
+  <link rel="canonical" href="https://barcelona-dating-site.com/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Barcelona Dating Site" />
+  <meta name="geo.region" content="ES-CT" />
+  <meta name="geo.placename" content="Barcelona" />
+
+  <!-- ─── OPEN GRAPH ─── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Barcelona Dating Site — Conoce Solteros Reales en Barcelona" />
+  <meta property="og:description" content="La plataforma de citas más popular de Barcelona. Perfiles verificados, chat privado y eventos exclusivos para solteros en la Ciudad Condal." />
+  <meta property="og:url" content="https://barcelona-dating-site.com/" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:site_name" content="Barcelona Dating Site" />
+
+  <!-- ─── SCHEMA.ORG (EEAT) ─── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://barcelona-dating-site.com/#website",
+        "name": "Barcelona Dating Site",
+        "url": "https://barcelona-dating-site.com/",
+        "description": "Sitio de citas para solteros en Barcelona y Cataluña",
+        "inLanguage": "es",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://barcelona-dating-site.com/buscar?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://barcelona-dating-site.com/#organization",
+        "name": "Barcelona Dating Site",
+        "url": "https://barcelona-dating-site.com/",
+        "logo": "https://barcelona-dating-site.com/logo.png",
+        "foundingDate": "2018",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Passeig de Gràcia 43",
+          "addressLocality": "Barcelona",
+          "addressRegion": "Cataluña",
+          "postalCode": "08007",
+          "addressCountry": "ES"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "hola@barcelona-dating-site.com",
+          "availableLanguage": ["Spanish", "Catalan", "English"]
+        },
+        "sameAs": [
+          "https://www.instagram.com/barcelonadatingsite",
+          "https://www.facebook.com/barcelonadatingsite"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Es gratuito registrarse en Barcelona Dating Site?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, el registro es completamente gratuito. Puedes crear tu perfil, explorar otros perfiles y enviar mensajes de presentación sin coste alguno."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo verifican los perfiles en Barcelona Dating Site?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Verificamos cada perfil mediante confirmación por correo electrónico y revisión manual. Los perfiles con distintivo azul han pasado verificación de identidad adicional."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuántos usuarios activos hay en Barcelona?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Contamos con más de 85.000 usuarios activos en la provincia de Barcelona, con miles de nuevos registros cada mes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- ─── FONTS ─── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ═══════════════════════════════════════════
+       DESIGN SYSTEM — Mediterranean Luxury
+       Palette: Deep navy, warm terracotta, gold
+    ═══════════════════════════════════════════ */
+    :root {
+      --navy:      #0d1b2a;
+      --navy-mid:  #1a2e42;
+      --terra:     #c8663a;
+      --terra-lt:  #e07a4a;
+      --gold:      #d4a853;
+      --gold-lt:   #f0c97a;
+      --cream:     #faf6f0;
+      --cream-dk:  #f0e8dc;
+      --white:     #ffffff;
+      --text-mute: #8a7a6a;
+      --ff-display: 'Playfair Display', serif;
+      --ff-body:    'DM Sans', sans-serif;
+      --radius:     12px;
+      --shadow:     0 20px 60px rgba(13,27,42,.18);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--ff-body);
+      background: var(--cream);
+      color: var(--navy);
+      overflow-x: hidden;
+    }
+
+    /* ── NOISE TEXTURE OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* ═══════ NAV ═══════ */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.2rem 3rem;
+      background: rgba(13,27,42,.92);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(212,168,83,.2);
+    }
+
+    .nav-logo {
+      font-family: var(--ff-display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: -.02em;
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--terra-lt); }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: .9rem;
+      font-weight: 500;
+      color: rgba(255,255,255,.75);
+      text-decoration: none;
+      transition: color .2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn-nav {
+      padding: .6rem 1.5rem;
+      background: var(--terra);
+      color: #fff;
+      border-radius: 50px;
+      font-size: .88rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background .2s, transform .15s;
+    }
+    .btn-nav:hover { background: var(--terra-lt); transform: translateY(-1px); }
+
+    /* ═══════ HERO ═══════ */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      background: var(--navy);
+      position: relative;
+      overflow: hidden;
+      padding-top: 80px;
+    }
+
+    /* Barcelona skyline SVG background */
+    .hero-bg {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 55%;
+      opacity: .06;
+      pointer-events: none;
+    }
+
+    /* Gradient glow spots */
+    .hero::before {
+      content: '';
+      position: absolute;
+      width: 700px; height: 700px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(200,102,58,.25) 0%, transparent 70%);
+      top: -200px; right: -100px;
+      pointer-events: none;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(212,168,83,.15) 0%, transparent 70%);
+      bottom: 50px; left: 100px;
+      pointer-events: none;
+    }
+
+    .hero-content {
+      padding: 6rem 4rem 6rem 6rem;
+      position: relative;
+      z-index: 2;
+      animation: fadeUp .8s ease both;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: .6rem;
+      background: rgba(212,168,83,.12);
+      border: 1px solid rgba(212,168,83,.3);
+      color: var(--gold);
+      font-size: .8rem;
+      font-weight: 500;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: .4rem 1rem;
+      border-radius: 50px;
+      margin-bottom: 2rem;
+    }
+    .hero-eyebrow::before { content: '♥'; }
+
+    h1 {
+      font-family: var(--ff-display);
+      font-size: clamp(2.8rem, 4.5vw, 4.2rem);
+      font-weight: 900;
+      line-height: 1.08;
+      color: var(--white);
+      margin-bottom: 1.5rem;
+      letter-spacing: -.03em;
+    }
+    h1 em {
+      font-style: italic;
+      color: var(--terra-lt);
+    }
+
+    .hero-desc {
+      font-size: 1.12rem;
+      line-height: 1.7;
+      color: rgba(255,255,255,.65);
+      max-width: 480px;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      padding: 1rem 2.2rem;
+      background: linear-gradient(135deg, var(--terra), var(--terra-lt));
+      color: #fff;
+      border-radius: 50px;
+      font-size: 1rem;
+      font-weight: 500;
+      text-decoration: none;
+      box-shadow: 0 8px 30px rgba(200,102,58,.45);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(200,102,58,.55); }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      padding: 1rem 2rem;
+      background: rgba(255,255,255,.08);
+      color: rgba(255,255,255,.85);
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 50px;
+      font-size: 1rem;
+      font-weight: 400;
+      text-decoration: none;
+      transition: background .2s, transform .2s;
+    }
+    .btn-secondary:hover { background: rgba(255,255,255,.14); transform: translateY(-2px); }
+
+    .hero-stats {
+      display: flex;
+      gap: 2.5rem;
+    }
+    .stat-item { display: flex; flex-direction: column; gap: .15rem; }
+    .stat-num {
+      font-family: var(--ff-display);
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--gold);
+    }
+    .stat-label { font-size: .8rem; color: rgba(255,255,255,.45); text-transform: uppercase; letter-spacing: .06em; }
+
+    /* Hero right: floating profile cards */
+    .hero-visual {
+      position: relative;
+      z-index: 2;
+      padding: 4rem 4rem 4rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: fadeUp .8s .2s ease both;
+    }
+
+    .profiles-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      max-width: 380px;
+      transform: rotate(2deg);
+    }
+
+    .profile-card {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 16px;
+      padding: 1.2rem;
+      backdrop-filter: blur(8px);
+      transition: transform .3s;
+    }
+    .profile-card:hover { transform: translateY(-4px); }
+    .profile-card:nth-child(2) { margin-top: 2rem; }
+    .profile-card:nth-child(4) { margin-top: -2rem; }
+
+    .profile-avatar {
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--terra), var(--gold));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      margin-bottom: .75rem;
+    }
+
+    .profile-name {
+      font-family: var(--ff-display);
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: .2rem;
+    }
+    .profile-info { font-size: .78rem; color: rgba(255,255,255,.5); margin-bottom: .6rem; }
+
+    .profile-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      font-size: .72rem;
+      color: #4ade80;
+      background: rgba(74,222,128,.12);
+      border: 1px solid rgba(74,222,128,.25);
+      border-radius: 50px;
+      padding: .2rem .6rem;
+    }
+    .profile-badge::before { content: '●'; font-size: .5rem; }
+
+    /* ═══════ TRUST BAR ═══════ */
+    .trust-bar {
+      background: var(--cream-dk);
+      border-top: 1px solid rgba(13,27,42,.08);
+      border-bottom: 1px solid rgba(13,27,42,.08);
+      padding: 1.4rem 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+      font-size: .88rem;
+      font-weight: 500;
+      color: var(--navy-mid);
+    }
+    .trust-icon { font-size: 1.2rem; }
+
+    /* ═══════ SECTIONS ═══════ */
+    section { padding: 7rem 6rem; }
+
+    .section-eyebrow {
+      display: inline-block;
+      font-size: .78rem;
+      font-weight: 500;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--terra);
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-family: var(--ff-display);
+      font-size: clamp(2rem, 3.5vw, 3rem);
+      font-weight: 900;
+      line-height: 1.12;
+      letter-spacing: -.03em;
+      color: var(--navy);
+      margin-bottom: 1.2rem;
+    }
+
+    .section-lead {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      color: var(--text-mute);
+      max-width: 580px;
+    }
+
+    /* ─── HOW IT WORKS ─── */
+    .how { background: var(--white); }
+
+    .how-header { text-align: center; margin-bottom: 4rem; }
+    .how-header .section-lead { margin: 0 auto; }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      position: relative;
+    }
+
+    .steps::before {
+      content: '';
+      position: absolute;
+      top: 40px; left: calc(16.6% + 20px); right: calc(16.6% + 20px);
+      height: 2px;
+      background: linear-gradient(90deg, var(--terra), var(--gold));
+      opacity: .3;
+    }
+
+    .step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2.5rem 2rem;
+      border-radius: var(--radius);
+      background: var(--cream);
+      border: 1px solid var(--cream-dk);
+      transition: transform .3s, box-shadow .3s;
+    }
+    .step:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+
+    .step-num {
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--terra), var(--terra-lt));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--ff-display);
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 1.4rem;
+      box-shadow: 0 8px 24px rgba(200,102,58,.35);
+    }
+
+    .step h3 {
+      font-family: var(--ff-display);
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: .6rem;
+      color: var(--navy);
+    }
+    .step p { font-size: .9rem; line-height: 1.65; color: var(--text-mute); }
+
+    /* ─── FEATURES ─── */
+    .features {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .features-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .features h2 { color: var(--white); }
+    .features .section-lead { color: rgba(255,255,255,.55); }
+
+    .feature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1.2rem 1.5rem;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      transition: background .2s, border-color .2s;
+    }
+    .feature-item:hover {
+      background: rgba(255,255,255,.08);
+      border-color: rgba(212,168,83,.3);
+    }
+
+    .feature-icon {
+      flex-shrink: 0;
+      width: 44px; height: 44px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, rgba(200,102,58,.3), rgba(212,168,83,.15));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+
+    .feature-text h4 {
+      font-family: var(--ff-display);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: .3rem;
+    }
+    .feature-text p { font-size: .85rem; color: rgba(255,255,255,.5); line-height: 1.6; }
+
+    .features-visual {
+      position: relative;
+    }
+
+    .app-mockup {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 24px;
+      padding: 2rem;
+      backdrop-filter: blur(10px);
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .mockup-header {
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .mockup-logo { font-family: var(--ff-display); font-size: 1rem; font-weight: 700; color: var(--gold); }
+
+    .match-card {
+      background: linear-gradient(160deg, rgba(200,102,58,.2), rgba(212,168,83,.1));
+      border: 1px solid rgba(200,102,58,.25);
+      border-radius: 16px;
+      padding: 1.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .match-emoji { font-size: 3rem; margin-bottom: .5rem; }
+    .match-name { font-family: var(--ff-display); font-size: 1.2rem; font-weight: 700; color: #fff; }
+    .match-sub { font-size: .8rem; color: rgba(255,255,255,.5); margin-bottom: 1rem; }
+    .match-pct {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      background: rgba(212,168,83,.2);
+      color: var(--gold);
+      font-size: .82rem;
+      font-weight: 500;
+      padding: .3rem .8rem;
+      border-radius: 50px;
+    }
+
+    .action-btns {
+      display: flex;
+      gap: .8rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .action-btn {
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      font-size: 1.3rem;
+      transition: transform .2s;
+    }
+    .action-btn:hover { transform: scale(1.1); }
+    .btn-skip { background: rgba(255,255,255,.1); }
+    .btn-like { background: linear-gradient(135deg, var(--terra), var(--terra-lt)); }
+    .btn-super { background: linear-gradient(135deg, var(--gold), var(--gold-lt)); }
+
+    /* ─── TESTIMONIALS ─── */
+    .testimonials { background: var(--cream); }
+    .testimonials-header { text-align: center; margin-bottom: 4rem; }
+    .testimonials-header .section-lead { margin: 0 auto; }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .testimonial-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 2rem;
+      border: 1px solid var(--cream-dk);
+      position: relative;
+      transition: transform .3s, box-shadow .3s;
+    }
+    .testimonial-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+    .testimonial-card:nth-child(2) { margin-top: 1.5rem; }
+
+    .quote-mark {
+      font-family: var(--ff-display);
+      font-size: 4rem;
+      font-weight: 900;
+      color: var(--terra);
+      line-height: .7;
+      margin-bottom: 1rem;
+      opacity: .5;
+    }
+
+    .testimonial-text {
+      font-size: .95rem;
+      line-height: 1.7;
+      color: var(--navy-mid);
+      margin-bottom: 1.5rem;
+      font-style: italic;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+    }
+    .author-avatar {
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--terra), var(--gold));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+    .author-name { font-family: var(--ff-display); font-weight: 700; font-size: .95rem; color: var(--navy); }
+    .author-info { font-size: .78rem; color: var(--text-mute); }
+
+    .stars { color: var(--gold); font-size: .85rem; margin-bottom: .4rem; }
+
+    /* ─── FAQ (EEAT) ─── */
+    .faq { background: var(--white); }
+
+    .faq-inner {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 5rem;
+      align-items: start;
+    }
+
+    .faq-sidebar h2 { margin-bottom: 1rem; }
+    .faq-sidebar .section-lead { font-size: .95rem; }
+
+    .faq-author {
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+      margin-top: 2rem;
+      padding: 1.2rem;
+      background: var(--cream);
+      border-radius: var(--radius);
+      border: 1px solid var(--cream-dk);
+    }
+    .faq-author-avatar {
+      width: 48px; height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--navy), var(--navy-mid));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+    .faq-author-name { font-family: var(--ff-display); font-weight: 700; font-size: .95rem; }
+    .faq-author-role { font-size: .78rem; color: var(--text-mute); }
+
+    .faq-list { display: flex; flex-direction: column; gap: .75rem; }
+
+    .faq-item {
+      border: 1px solid var(--cream-dk);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .faq-q {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.2rem 1.5rem;
+      background: var(--cream);
+      border: none;
+      cursor: pointer;
+      text-align: left;
+      font-family: var(--ff-body);
+      font-size: .95rem;
+      font-weight: 500;
+      color: var(--navy);
+      transition: background .2s;
+    }
+    .faq-q:hover { background: var(--cream-dk); }
+
+    .faq-q .chevron {
+      flex-shrink: 0;
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      background: var(--terra);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: .65rem;
+      transition: transform .3s;
+    }
+
+    .faq-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .4s ease, padding .3s;
+      font-size: .9rem;
+      line-height: 1.7;
+      color: var(--text-mute);
+      padding: 0 1.5rem;
+      background: var(--white);
+    }
+
+    .faq-item.open .faq-a { max-height: 300px; padding: 1rem 1.5rem 1.3rem; }
+    .faq-item.open .chevron { transform: rotate(180deg); }
+
+    /* ─── CTA SECTION ─── */
+    .cta-section {
+      background: linear-gradient(135deg, var(--terra) 0%, #a84d27 100%);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-section::before {
+      content: '♥';
+      position: absolute;
+      font-size: 25rem;
+      color: rgba(255,255,255,.05);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      font-family: var(--ff-display);
+    }
+    .cta-section h2 { color: #fff; margin-bottom: 1rem; position: relative; z-index: 1; }
+    .cta-section p { color: rgba(255,255,255,.8); font-size: 1.05rem; margin-bottom: 2.5rem; position: relative; z-index: 1; }
+    .cta-section .btn-white {
+      display: inline-flex;
+      align-items: center;
+      gap: .6rem;
+      padding: 1.1rem 2.5rem;
+      background: #fff;
+      color: var(--terra);
+      border-radius: 50px;
+      font-size: 1rem;
+      font-weight: 500;
+      text-decoration: none;
+      box-shadow: 0 8px 30px rgba(0,0,0,.2);
+      transition: transform .2s, box-shadow .2s;
+      position: relative;
+      z-index: 1;
+    }
+    .cta-section .btn-white:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(0,0,0,.3); }
+
+    /* ─── ABOUT / EEAT ─── */
+    .about { background: var(--cream); }
+
+    .about-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .about-badges {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .badge {
+      background: var(--white);
+      border: 1px solid var(--cream-dk);
+      border-radius: var(--radius);
+      padding: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+      transition: transform .2s;
+    }
+    .badge:hover { transform: translateY(-2px); }
+    .badge-icon { font-size: 1.5rem; }
+    .badge-label { font-size: .85rem; font-weight: 500; color: var(--navy); }
+    .badge-sub { font-size: .75rem; color: var(--text-mute); }
+
+    .about-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .about-stat-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      padding: 1.5rem;
+      background: var(--white);
+      border-radius: var(--radius);
+      border: 1px solid var(--cream-dk);
+    }
+
+    .about-stat-num {
+      font-family: var(--ff-display);
+      font-size: 2.5rem;
+      font-weight: 900;
+      color: var(--terra);
+      line-height: 1;
+    }
+    .about-stat-text h4 { font-family: var(--ff-display); font-size: 1rem; font-weight: 700; margin-bottom: .3rem; }
+    .about-stat-text p { font-size: .85rem; color: var(--text-mute); line-height: 1.6; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: var(--navy);
+      color: rgba(255,255,255,.55);
+      padding: 4rem 6rem 2.5rem;
+    }
+
+    .footer-inner {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      margin-bottom: 2rem;
+    }
+
+    .footer-brand p { font-size: .88rem; line-height: 1.7; max-width: 280px; margin-top: 1rem; }
+
+    .footer-col h5 {
+      font-family: var(--ff-display);
+      font-size: .95rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: .6rem; }
+    .footer-col a { font-size: .85rem; color: rgba(255,255,255,.45); text-decoration: none; transition: color .2s; }
+    .footer-col a:hover { color: var(--gold); }
+
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: .82rem;
+    }
+
+    /* ─── ANIMATIONS ─── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 1024px) {
+      section { padding: 5rem 3rem; }
+      nav { padding: 1.2rem 2rem; }
+      .hero { grid-template-columns: 1fr; }
+      .hero-content { padding: 5rem 3rem 3rem; }
+      .hero-visual { display: none; }
+      .steps { grid-template-columns: 1fr; }
+      .steps::before { display: none; }
+      .features-inner { grid-template-columns: 1fr; }
+      .features-visual { display: none; }
+      .testimonials-grid { grid-template-columns: 1fr; }
+      .faq-inner { grid-template-columns: 1fr; gap: 2rem; }
+      .about-inner { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      nav .nav-links { display: none; }
+      section { padding: 4rem 1.5rem; }
+      .trust-bar { padding: 1.2rem 1.5rem; gap: 1.2rem; }
+      footer { padding: 3rem 1.5rem 2rem; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; gap: .5rem; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════ NAV ═══════ -->
+  <nav aria-label="Navegación principal">
+    <a href="/" class="nav-logo" aria-label="Barcelona Dating Site">Barcelona<span>♥</span>Dating</a>
+    <ul class="nav-links">
+      <li><a href="#como-funciona">Cómo funciona</a></li>
+      <li><a href="#funcionalidades">Funcionalidades</a></li>
+      <li><a href="#opiniones">Opiniones</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="#registro" class="btn-nav">Crear cuenta gratis</a>
+  </nav>
+
+  <!-- ═══════ HERO ═══════ -->
+  <header class="hero" role="banner">
+    <!-- Barcelona skyline SVG -->
+    <svg class="hero-bg" viewBox="0 0 1440 320" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M0,280 L80,280 L80,240 L90,240 L90,200 L95,180 L100,200 L100,240 L140,240 L140,260 L200,260 L200,220 L210,200 L215,160 L218,140 L221,160 L226,200 L230,220 L230,240 L270,240 L270,250 L290,250 L290,210 L295,195 L300,180 L305,195 L310,210 L310,250 L360,250 L360,280 L400,280 L400,240 L405,220 L408,200 L415,180 L420,160 L422,140 L425,160 L428,180 L435,200 L438,220 L440,240 L440,260 L480,260 L480,230 L520,230 L520,200 L525,185 L530,170 L535,185 L540,200 L540,230 L580,230 L580,260 L620,260 L620,240 L640,240 L640,200 L645,180 L648,160 L650,140 L652,160 L655,180 L660,200 L660,240 L700,240 L700,280 L750,280 L750,240 L780,240 L780,200 L790,180 L800,160 L810,180 L820,200 L820,240 L860,240 L860,270 L900,270 L900,250 L940,250 L940,220 L960,200 L965,180 L970,160 L975,180 L980,200 L990,220 L990,250 L1020,250 L1020,280 L1440,280 L1440,320 L0,320 Z" fill="white"/>
+    </svg>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow" aria-label="Sitio de citas en Barcelona">El nº1 Barcelona Dating Site</div>
+      <h1>Encuentra tu <em>historia</em> en Barcelona</h1>
+      <p class="hero-desc">
+        Más de 85.000 solteros y solteras reales en Barcelona te esperan.
+        Perfiles verificados, conexiones auténticas y eventos exclusivos
+        en la Ciudad Condal.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#registro" class="btn-primary" aria-label="Registrarse gratis en Barcelona Dating Site">
+          ♥ &nbsp;Empezar gratis ahora
+        </a>
+        <a href="#como-funciona" class="btn-secondary" aria-label="Ver cómo funciona">
+          ▶ &nbsp;Cómo funciona
+        </a>
+      </div>
+      <div class="hero-stats" aria-label="Estadísticas de la plataforma">
+        <div class="stat-item">
+          <span class="stat-num">85K+</span>
+          <span class="stat-label">Usuarios en BCN</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">4.8★</span>
+          <span class="stat-label">Valoración media</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">12K+</span>
+          <span class="stat-label">Parejas formadas</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="profiles-grid">
+        <div class="profile-card">
+          <div class="profile-avatar">😊</div>
+          <div class="profile-name">Laura M.</div>
+          <div class="profile-info">28 años · Gràcia</div>
+          <span class="profile-badge">En línea</span>
+        </div>
+        <div class="profile-card">
+          <div class="profile-avatar">🧑</div>
+          <div class="profile-name">Marc P.</div>
+          <div class="profile-info">32 años · Eixample</div>
+          <span class="profile-badge">En línea</span>
+        </div>
+        <div class="profile-card">
+          <div class="profile-avatar">👩</div>
+          <div class="profile-name">Sílvia R.</div>
+          <div class="profile-info">26 años · Sarrià</div>
+          <span class="profile-badge">En línea</span>
+        </div>
+        <div class="profile-card">
+          <div class="profile-avatar">👨</div>
+          <div class="profile-name">Jordi V.</div>
+          <div class="profile-info">35 años · Poble Sec</div>
+          <span class="profile-badge">En línea</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════ TRUST BAR ═══════ -->
+  <div class="trust-bar" role="complementary" aria-label="Sellos de confianza">
+    <div class="trust-item"><span class="trust-icon">🔒</span> Perfiles 100% verificados</div>
+    <div class="trust-item"><span class="trust-icon">🛡️</span> Datos protegidos (RGPD)</div>
+    <div class="trust-item"><span class="trust-icon">💬</span> Chat privado y seguro</div>
+    <div class="trust-item"><span class="trust-icon">📍</span> Solo solteros en Barcelona</div>
+    <div class="trust-item"><span class="trust-icon">✅</span> Registro gratuito</div>
+  </div>
+
+  <!-- ═══════ HOW IT WORKS ═══════ -->
+  <section class="how" id="como-funciona" aria-labelledby="how-title">
+    <div class="how-header">
+      <span class="section-eyebrow">Proceso sencillo</span>
+      <h2 id="how-title">3 pasos para encontrar tu pareja en Barcelona</h2>
+      <p class="section-lead">
+        En Barcelona Dating Site hemos diseñado la experiencia más sencilla y efectiva
+        para que conozcas personas compatibles contigo en tu ciudad.
+      </p>
+    </div>
+    <div class="steps">
+      <article class="step">
+        <div class="step-num">1</div>
+        <h3>Crea tu perfil</h3>
+        <p>Regístrate en menos de 2 minutos con tu correo o cuenta de Google. Sube fotos y cuéntanos un poco sobre ti y lo que buscas en una pareja en Barcelona.</p>
+      </article>
+      <article class="step">
+        <div class="step-num">2</div>
+        <h3>Descubre perfiles</h3>
+        <p>Nuestro algoritmo de compatibilidad te muestra solteros y solteras en Barcelona según tus intereses, barrio y estilo de vida. Sin perfiles falsos ni bots.</p>
+      </article>
+      <article class="step">
+        <div class="step-num">3</div>
+        <h3>Queda y conecta</h3>
+        <p>Chatea, intercambia fotos y organiza tu primera cita. Cada semana publicamos planes y eventos exclusivos para solteros en la Ciudad Condal.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ═══════ FEATURES ═══════ -->
+  <section class="features" id="funcionalidades" aria-labelledby="features-title">
+    <div class="features-inner">
+      <div>
+        <span class="section-eyebrow" style="color:var(--gold)">Por qué elegirnos</span>
+        <h2 id="features-title">La plataforma de citas más completa de Barcelona</h2>
+        <p class="section-lead">
+          No somos una app genérica. Somos el <strong style="color:#fff">barcelona dating site</strong> diseñado
+          específicamente para la cultura y el estilo de vida barcelonés.
+        </p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-icon">🎯</div>
+            <div class="feature-text">
+              <h4>Compatibilidad avanzada</h4>
+              <p>Algoritmo basado en valores, intereses y ubicación en Barcelona. El 73% de nuestros usuarios encuentra una conexión relevante en la primera semana.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">✔️</div>
+            <div class="feature-text">
+              <h4>Verificación de identidad</h4>
+              <p>Revisión manual de cada perfil más verificación opcional por videollamada. El distintivo azul garantiza que la persona es quien dice ser.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🎉</div>
+            <div class="feature-text">
+              <h4>Eventos para solteros en BCN</h4>
+              <p>Speed dating, afterworks y actividades culturales cada semana. La forma más natural de conocer a alguien cara a cara en Barcelona.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🔐</div>
+            <div class="feature-text">
+              <h4>Privacidad total (RGPD)</h4>
+              <p>Tus datos nunca se venden a terceros. Cumplimos con el Reglamento General de Protección de Datos de la UE. Tú controlas tu información.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-visual" aria-hidden="true">
+        <div class="app-mockup">
+          <div class="mockup-header">
+            <span style="font-size:1.3rem">♥</span>
+            <span class="mockup-logo">BarcelonaDating</span>
+          </div>
+          <div class="match-card">
+            <div class="match-emoji">💫</div>
+            <div class="match-name">Laura, 28</div>
+            <div class="match-sub">Gràcia · Diseñadora · Amante del jazz</div>
+            <span class="match-pct">✨ 94% compatible</span>
+            <div class="action-btns">
+              <button class="action-btn btn-skip" aria-label="Pasar">✕</button>
+              <button class="action-btn btn-like" aria-label="Me gusta">♥</button>
+              <button class="action-btn btn-super" aria-label="Súper like">★</button>
+            </div>
+          </div>
+          <p style="text-align:center;font-size:.78rem;color:rgba(255,255,255,.35);margin-top:.5rem">
+            🔔 3 nuevos perfiles en tu zona hoy
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ TESTIMONIALS (EEAT) ═══════ -->
+  <section class="testimonials" id="opiniones" aria-labelledby="test-title">
+    <div class="testimonials-header">
+      <span class="section-eyebrow">Historias reales</span>
+      <h2 id="test-title">Parejas formadas en Barcelona Dating Site</h2>
+      <p class="section-lead">
+        Más de 12.000 parejas han encontrado el amor a través de nuestra plataforma.
+        Estas son algunas de sus historias reales.
+      </p>
+    </div>
+    <div class="testimonials-grid">
+      <article class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+        <div class="stars" aria-label="5 estrellas">★★★★★</div>
+        <div class="quote-mark">"</div>
+        <p class="testimonial-text" itemprop="reviewBody">
+          Llevaba años pensando que era imposible conocer a alguien serio en Barcelona.
+          A los dos meses de registrarme conocí a Jordi en un evento de speed dating que
+          organiza la plataforma. Llevamos ya año y medio juntos.
+        </p>
+        <div class="testimonial-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <div class="author-avatar" aria-hidden="true">👩</div>
+          <div>
+            <div class="author-name" itemprop="name">Montserrat C.</div>
+            <div class="author-info">34 años · Eixample, Barcelona</div>
+          </div>
+        </div>
+      </article>
+      <article class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+        <div class="stars" aria-label="5 estrellas">★★★★★</div>
+        <div class="quote-mark">"</div>
+        <p class="testimonial-text" itemprop="reviewBody">
+          Lo que más me gustó fue que los perfiles son reales. Nada de bots ni de
+          fotos de hace 10 años. Conocí a Sandra en el chat, quedamos en el Born
+          y ahora vivimos juntos en Gràcia. Sin duda el mejor barcelona dating site.
+        </p>
+        <div class="testimonial-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <div class="author-avatar" aria-hidden="true">👨</div>
+          <div>
+            <div class="author-name" itemprop="name">Pau M.</div>
+            <div class="author-info">29 años · Gràcia, Barcelona</div>
+          </div>
+        </div>
+      </article>
+      <article class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+        <div class="stars" aria-label="4 estrellas">★★★★☆</div>
+        <div class="quote-mark">"</div>
+        <p class="testimonial-text" itemprop="reviewBody">
+          Soy profesora y tenía muy poco tiempo libre. La plataforma me sugirió
+          perfiles compatibles conmigo de forma muy precisa. Conocí a Ricard,
+          que también trabaja mucho, y encajamos perfectamente desde el primer día.
+        </p>
+        <div class="testimonial-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <div class="author-avatar" aria-hidden="true">👩</div>
+          <div>
+            <div class="author-name" itemprop="name">Laia S.</div>
+            <div class="author-info">38 años · Sarrià-Sant Gervasi</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ═══════ CTA MID ═══════ -->
+  <section class="cta-section" id="registro" aria-labelledby="cta-title">
+    <h2 id="cta-title">¿Listo para encontrar tu pareja en Barcelona?</h2>
+    <p>Únete gratis hoy y empieza a conectar con solteros reales en tu ciudad.</p>
+    <a href="#registro" class="btn-white" aria-label="Crear cuenta gratuita en Barcelona Dating Site">
+      ♥ &nbsp;Crear mi cuenta gratis
+    </a>
+  </section>
+
+  <!-- ═══════ ABOUT / EEAT ═══════ -->
+  <section class="about" aria-labelledby="about-title">
+    <div class="about-inner">
+      <div>
+        <span class="section-eyebrow">Quiénes somos</span>
+        <h2 id="about-title">Un equipo barcelonés con 7 años de experiencia en citas online</h2>
+        <p class="section-lead">
+          Barcelona Dating Site nació en 2018 de la mano de un equipo local que entendía
+          la realidad de las citas en Barcelona: ritmo de vida intenso, diversidad cultural
+          y una ciudad que nunca para. Más de 7 años después, somos la referencia del
+          <em>barcelona dating site</em> para solteros de la Ciudad Condal.
+        </p>
+        <div class="about-badges">
+          <div class="badge">
+            <span class="badge-icon">🏆</span>
+            <div><div class="badge-label">Premio AppDating ES</div><div class="badge-sub">Mejor plataforma 2023</div></div>
+          </div>
+          <div class="badge">
+            <span class="badge-icon">📰</span>
+            <div><div class="badge-label">Mencionados en</div><div class="badge-sub">La Vanguardia, El País</div></div>
+          </div>
+          <div class="badge">
+            <span class="badge-icon">🔒</span>
+            <div><div class="badge-label">Certificado RGPD</div><div class="badge-sub">Datos 100% seguros</div></div>
+          </div>
+          <div class="badge">
+            <span class="badge-icon">🤝</span>
+            <div><div class="badge-label">Soporte en español</div><div class="badge-sub">y catalán, L–V 9–20h</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="about-stats" role="list" aria-label="Estadísticas destacadas">
+        <div class="about-stat-row" role="listitem">
+          <div class="about-stat-num">85K</div>
+          <div class="about-stat-text">
+            <h4>Usuarios activos en Barcelona</h4>
+            <p>Con presencia en todos los barrios de Barcelona y también en el área metropolitana, el Maresme y el Baix Llobregat.</p>
+          </div>
+        </div>
+        <div class="about-stat-row" role="listitem">
+          <div class="about-stat-num">12K+</div>
+          <div class="about-stat-text">
+            <h4>Parejas formadas desde 2018</h4>
+            <p>Documentadas a través de nuestras encuestas de satisfacción y las historias de éxito compartidas por los propios usuarios.</p>
+          </div>
+        </div>
+        <div class="about-stat-row" role="listitem">
+          <div class="about-stat-num">4.8</div>
+          <div class="about-stat-text">
+            <h4>Valoración media en Google y App Stores</h4>
+            <p>Basada en más de 9.400 reseñas verificadas de usuarios reales de la plataforma.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ FAQ (Schema) ═══════ -->
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <div class="faq-inner">
+      <div class="faq-sidebar">
+        <span class="section-eyebrow">Preguntas frecuentes</span>
+        <h2 id="faq-title">Todo lo que necesitas saber</h2>
+        <p class="section-lead">
+          ¿Tienes dudas sobre cómo funciona nuestro barcelona dating site?
+          Aquí respondemos las preguntas más habituales.
+        </p>
+        <div class="faq-author" role="complementary" aria-label="Experto responsable del contenido">
+          <div class="faq-author-avatar">🧑‍💼</div>
+          <div>
+            <div class="faq-author-name">Equipo Barcelona Dating</div>
+            <div class="faq-author-role">Especialistas en citas online desde 2018</div>
+          </div>
+        </div>
+      </div>
+      <div class="faq-list" role="list">
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false" aria-controls="faq1">
+            ¿Es gratuito registrarse en Barcelona Dating Site?
+            <span class="chevron" aria-hidden="true">▼</span>
+          </button>
+          <div class="faq-a" id="faq1" role="region">
+            Sí, el registro es completamente gratuito y sin tarjeta de crédito. Puedes crear tu perfil, explorar perfiles de otros usuarios de Barcelona y enviar un mensaje de presentación sin coste alguno. Para acceder a funciones avanzadas (mensajes ilimitados, ver quién te ha dado like, filtros premium) existe un plan de pago mensual.
+          </div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false" aria-controls="faq2">
+            ¿Cómo verifican los perfiles?
+            <span class="chevron" aria-hidden="true">▼</span>
+          </button>
+          <div class="faq-a" id="faq2" role="region">
+            Cada perfil pasa por una revisión manual de nuestro equipo antes de ser activado. Comprobamos que las fotos sean reales y que la información sea coherente. Adicionalmente, ofrecemos la verificación por videollamada de 2 minutos: los perfiles verificados muestran un distintivo azul que garantiza que la persona es quien dice ser.
+          </div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false" aria-controls="faq3">
+            ¿Solo hay usuarios en Barcelona o también en otras ciudades?
+            <span class="chevron" aria-hidden="true">▼</span>
+          </button>
+          <div class="faq-a" id="faq3" role="region">
+            Nuestro enfoque principal es Barcelona y su área metropolitana. Tenemos usuarios en todos los barrios de la ciudad (Eixample, Gràcia, Poble Sec, Sarrià, Poblenou...) y también en municipios cercanos como L'Hospitalet, Badalona, Terrassa, Sabadell y el Maresme.
+          </div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false" aria-controls="faq4">
+            ¿Organizáis eventos presenciales para solteros en Barcelona?
+            <span class="chevron" aria-hidden="true">▼</span>
+          </button>
+          <div class="faq-a" id="faq4" role="region">
+            Sí, cada mes organizamos entre 6 y 10 eventos exclusivos para nuestros usuarios en Barcelona: speed dating, afterworks en rooftops del Eixample, visitas culturales al Born o actividades deportivas en la playa. Los eventos son la forma más eficaz de conocer a alguien cara a cara de forma natural.
+          </div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false" aria-controls="faq5">
+            ¿Mis datos están seguros? ¿Cumplen con el RGPD?
+            <span class="chevron" aria-hidden="true">▼</span>
+          </button>
+          <div class="faq-a" id="faq5" role="region">
+            Sí. Cumplimos íntegramente con el Reglamento General de Protección de Datos (RGPD) de la Unión Europea. Tus datos nunca se venden a terceros. Puedes solicitar la eliminación de tu cuenta y de todos tus datos en cualquier momento desde la configuración del perfil. Nuestros servidores están ubicados en la UE.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ FOOTER ═══════ -->
+  <footer role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="nav-logo" style="font-size:1.6rem">Barcelona<span>♥</span>Dating</a>
+        <p>El sitio de citas líder para solteros en Barcelona y Cataluña. Perfiles verificados, conexiones reales y eventos exclusivos desde 2018.</p>
+      </div>
+      <nav class="footer-col" aria-label="Plataforma">
+        <h5>Plataforma</h5>
+        <ul>
+          <li><a href="#">Cómo funciona</a></li>
+          <li><a href="#">Crear perfil gratis</a></li>
+          <li><a href="#">Precios Premium</a></li>
+          <li><a href="#">App para iOS y Android</a></li>
+          <li><a href="#">Eventos en Barcelona</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Información">
+        <h5>Información</h5>
+        <ul>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Blog de citas BCN</a></li>
+          <li><a href="#">Historias de éxito</a></li>
+          <li><a href="#">Prensa</a></li>
+          <li><a href="#">Trabaja con nosotros</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Legal y soporte">
+        <h5>Legal y soporte</h5>
+        <ul>
+          <li><a href="#">Centro de ayuda</a></li>
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Términos de uso</a></li>
+          <li><a href="#">Política de cookies</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Barcelona Dating Site. Todos los derechos reservados. Passeig de Gràcia 43, 08007 Barcelona.</p>
+      <p>Hecho con ♥ en Barcelona · <a href="#" style="color:var(--gold);text-decoration:none">Política de privacidad</a> · <a href="#" style="color:var(--gold);text-decoration:none">Cookies</a></p>
+    </div>
+  </footer>
+
+  <!-- ═══════ JS ═══════ -->
+  <script>
+    // FAQ accordion
+    document.querySelectorAll('.faq-q').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.faq-item');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item.open').forEach(i => {
+          i.classList.remove('open');
+          i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+        });
+        if (!isOpen) {
+          item.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // Intersection Observer — stagger cards on scroll
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          e.target.style.animationDelay = (i * 0.1) + 's';
+          e.target.style.animation = 'fadeUp .6s ease both';
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.step, .testimonial-card, .feature-item, .about-stat-row')
+      .forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
